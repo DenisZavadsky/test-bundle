@@ -1,0 +1,7 @@
+{
+    "name": "home",
+    "primaryNodeType": "nt:unstructured",
+    "sling:resourceType": "levelup/home",
+    "jcr:primaryType":"sling:Folder",
+    "pageTitle":"Home Test Page"
+}

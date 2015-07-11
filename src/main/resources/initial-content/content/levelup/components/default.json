@@ -1,0 +1,7 @@
+{
+    "name": "default",
+    "primaryNodeType": "nt:unstructured",
+    "jcr:primaryType":"sling:Folder",
+    "property1":"Content 1 for def component",
+    "property2":"Content 2 for def component"
+}

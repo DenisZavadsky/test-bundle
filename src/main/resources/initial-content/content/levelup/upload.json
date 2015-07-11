@@ -1,0 +1,7 @@
+{
+    "name": "upload",
+    "primaryNodeType": "nt:unstructured",
+    "sling:resourceType": "levelup/upload",
+    "jcr:primaryType":"sling:Folder",
+    "pageTitle":"Home Test Page"
+}

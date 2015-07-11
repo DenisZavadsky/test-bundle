@@ -1,0 +1,7 @@
+{
+    "name": "xquery",
+    "primaryNodeType": "nt:unstructured",
+    "sling:resourceType": "levelup/xquery",
+    "jcr:primaryType":"sling:Folder",
+    "pageTitle":"Home Test Page"
+}

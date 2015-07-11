@@ -1,0 +1,9 @@
+{
+    "name": "levelup",
+    "primaryNodeType": "nt:unstructured",
+    "sling:resourceType": "levelup/pages/nodelist",
+    "jcr:primaryType":"sling:Folder",
+    "jcr:content":{
+        "defaultQuery":"//element(*,'')"
+    }
+}
