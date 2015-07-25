@@ -26,8 +26,6 @@ public class TestServiceImpl implements TestService{
     SlingRepository slingRepository;
 
 
-
-
     @Override
     public void test() {
 
@@ -40,6 +38,7 @@ public class TestServiceImpl implements TestService{
 //        Long order = (Long) componentContext.getProperties().get("my.service.order");
 //        Boolean enabled = (Boolean) componentContext.getProperties().get("my.property.enabled");
         LOG.error("Test");
+
     }
 
 //    @Activate

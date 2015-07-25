@@ -12,6 +12,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <sling.api.version>2.8.0</sling.api.version>
     </properties>
 
     <dependencies>
@@ -40,7 +41,7 @@
             <groupId>org.apache.felix</groupId>
             <artifactId>org.apache.felix.scr.annotations</artifactId>
             <scope>provided</scope>
-            <version>1.6.0</version>
+            <version>1.8.0</version>
         </dependency>
 
         <dependency>
@@ -60,21 +61,21 @@
         <dependency>
             <groupId>org.apache.sling</groupId>
             <artifactId>org.apache.sling.jcr.api</artifactId>
-            <version>2.1.0</version>
+            <version>2.2.0</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>org.apache.sling</groupId>
             <artifactId>org.apache.sling.scripting.jsp</artifactId>
-            <version>2.0.14</version>
+            <version>2.1.4</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>org.apache.sling</groupId>
             <artifactId>org.apache.sling.scripting.jsp.taglib</artifactId>
-            <version>2.1.0</version>
+            <version>2.2.4</version>
             <scope>provided</scope>
         </dependency>
 
@@ -82,7 +83,7 @@
         <dependency>
             <groupId>org.apache.sling</groupId>
             <artifactId>org.apache.sling.api</artifactId>
-            <version>2.2.0</version>
+            <version>${sling.api.version}</version>
             <scope>provided</scope>
         </dependency>
 
